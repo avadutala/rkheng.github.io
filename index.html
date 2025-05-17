@@ -1,9 +1,116 @@
 
-<html><head><title>RKH Engineering</title><link rel='stylesheet' href='style.css'></head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RKH Engineering</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9fafa;
+      color: #333;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #0066cc;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h1, h2, h3 {
+      color: #004080;
+    }
+    .services-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 30px;
+    }
+    .service-card {
+      background-color: white;
+      padding: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    .logo {
+      height: 50px;
+    }
+
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
 <body>
-<header><h1>RKH Engineering</h1><p>Testing | Simulation | Engineering Solutions</p></header>
-<nav><a href='index.html'>Home</a><a href='services.html'>Services</a><a href='about.html'>About</a><a href='contact.html'>Contact</a></nav>
-<main><h2>Welcome</h2><p>We provide specialized engineering services including vehicle testing, simulation, and data acquisition. Our focus is helping clients validate and improve the durability and performance of automotive systems.</p></main>
-<footer><p>&copy; <span id='year'></span> RKH Engineering</p></footer>
-<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
-</body></html>
+  
+<header>
+  <div style="display: flex; align-items: center; justify-content: center; padding: 10px 0; background-color: #004080;">
+    <img src="logo.png" alt="RKH Logo" class="logo" style="height: 50px; margin-right: 15px;">
+    <div style="text-align: left;">
+      <h1 style="margin: 0; color: white;">RKH Engineering</h1>
+      <p style="margin: 0; color: white;">Expertise in Vehicle Testing, Simulation, and Road Load Data Acquisition</p>
+    </div>
+  </div>
+</header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="industry.html">Industry</a>
+    <a href="services.html">Services</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="container">
+    <h2>Welcome to RKH Engineering</h2>
+    <p>Founded by Somnath Ghorad, RKH Engineering offers specialized services in the automotive and mobility sectors. We focus on advanced vehicle testing, precise road load data acquisition, and high-fidelity simulations for both component and system-level evaluations. With years of hands-on experience and cutting-edge tools, we help clients bring durability and performance-driven designs to market efficiently.</p>
+
+    <h3>Our Services</h3>
+    <div class="services-section">
+      <div class="service-card">
+        <h4>Vehicle Testing</h4>
+        <p>On-road and proving ground validation for durability, performance, and NVH. Includes instrumentation, strain gauge application, and test execution.</p>
+      </div>
+      <div class="service-card">
+        <h4>Simulation</h4>
+        <p>Comprehensive FEA and MBD simulations including modal, fatigue, crash, and thermal studies using industry-standard tools.</p>
+      </div>
+      <div class="service-card">
+        <h4>Road Load Data Acquisition</h4>
+        <p>End-to-end RLDA setup, data logging, post-processing, and synthesis for accelerated test track simulation and virtual validation workflows.</p>
+      </div>
+    </div>
+
+    <h3>Why Choose Us?</h3>
+    <ul>
+      <li>Proven domain knowledge in structural mechanics, durability, and dynamics</li>
+      <li>Client-centric solutions tailored to each program’s technical and business goals</li>
+      <li>Global delivery experience across North America, Asia, and Europe</li>
+      <li>Commitment to innovation, accuracy, and timely delivery</li>
+    </ul>
+  </div>
+  <footer>
+    <p>&copy; 2025 RKH Engineering. All rights reserved. Contact: somnath@rkheng.com</p>
+  </footer>
+</body>
+</html>
