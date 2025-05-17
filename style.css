@@ -1,51 +1,41 @@
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f9f9f9;
+  background: #ffffff;
   color: #333;
 }
 header {
   background-color: #003366;
   color: white;
-  padding: 0;
+  padding: 20px;
   text-align: center;
 }
-header img {
-  width: 100%;
-  height: auto;
-}
 nav {
-  background: #004080;
+  background: #005599;
   display: flex;
   justify-content: center;
   padding: 10px 0;
 }
 nav a {
-  color: #fff;
-  margin: 0 20px;
+  color: white;
+  margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
 }
 main {
   max-width: 900px;
   margin: auto;
-  padding: 40px 20px;
-}
-h2 {
-  color: #004080;
-}
-main img {
-  max-width: 100%;
-  margin-top: 10px;
-  border-radius: 5px;
+  padding: 30px 20px;
 }
 footer {
-  background: #e6e6e6;
+  background: #eeeeee;
   text-align: center;
   padding: 20px;
   font-size: 0.9em;
-  color: #555;
-  margin-top: 40px;
+  color: #666;
 }
